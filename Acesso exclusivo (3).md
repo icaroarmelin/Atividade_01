@@ -2,9 +2,9 @@
 
 ---
 
-# Categoria: Crypto
+Categoria: Crypto
 
-# Autor: professores
+Autor: professores
 
 **Introdução**
 
