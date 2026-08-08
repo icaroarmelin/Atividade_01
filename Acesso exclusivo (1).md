@@ -2,7 +2,7 @@
 
 ---
 
-# Categoria: Crypto
+Categoria: Crypto
 
 Autor: 
 
