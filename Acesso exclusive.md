@@ -21,7 +21,7 @@ Esse era o enunciado juntamente com um arquivo.txt que dentro tinha um código:
 
 
 
-                                      *“25783566184c44533c5f47583c464742534247533c5945151649”*
+                                       “25783566184c44533c5f47583c464742534247533c5945151649”
 
 
 ## Interpretação
