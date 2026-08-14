@@ -30,9 +30,11 @@ Esse era o enunciado juntamente com um arquivo.txt que dentro tinha um código:
 Após a descoberta que precisaria usar o XOR pesquisei como ele realmente funciona, assim, entendi que ele analise bit por bit, verificando os 0s e 1s dos números em binário e que na cifra XOR:
 
                                                                     C=P⊕K
- C: texto cifrado
- P: texto original
- K: chave
+             
+        
+             C: texto cifrado
+             P: texto original
+             K: chave
 
 Mas também pode ser desfeito fazendo o contrário:
 
@@ -44,11 +46,12 @@ Mas também pode ser desfeito fazendo o contrário:
 
 
 
-Então após a divisão do código em hexadecimal, consegui pegar o binário de cada letra / número, assim, meu pensamento foi pegar a primeira parte da flag, que era “FLAG{“ e transformá-la com XOR, para obter um tradutor chave, que eu usaria para decifrar a cifra completa, usei o site dCode para fazer isso mas, fazendo na mão ficaria:
+Então após a divisão do código em hexadecimal, consegui pegar o binário de cada letra / número, assim, meu pensamento foi pegar a primeira parte da flag, que era “FLAG{“ e transformá-la com XOR, para obter um tradutor chave, que eu usaria para decifrar a cifra completa, usei o site dCode para fazer isso, mas, fazendo na mão ficaria:
 
 
 
 *25, que é o primeiro hexadecimal do código dentro do arquivo, se comparandado com o o hexadecimal de f, que é 46, me dá a letra c, e aqui entra a comparação em binário: 25 = 0010 0101 e 46 = 0100 0110, sendo assim, iguais dão 0 e diferentes dão 1, ficando com o binário de 0110 0011, que convertendo para hexadecimal é 63 que em ASCII, me dá a letra c.*
+
 
 
 ## Resolução
@@ -68,7 +71,7 @@ Então decidi que era um caractere de repetição e retirei-o da chave, ficando 
 ![flag certa](./fotos/fotoacesso3.png)
 
 ## Conclusão
-Esse foi meu primeiro desafio com cybersecurity, foi complicado no começo por não saber de várias coisas, mas depois que descobre a parte essencial, fica fácil continuar.
+Esse foi meu primeiro desafio com ciptografia, foi complicado no começo por não saber de várias coisas, mas depois que descobre a parte essencial, fica fácil continuar.
 Um desafio legal que me fez aprender principalmente a usar ferramentas que estão ao nosso dispor como o dCode que foi essencial para resolução do problema e sobre a cifra XOR.
 ****
 ![foto de resposta corrreta](./fotos/fotoacesso4.png)
