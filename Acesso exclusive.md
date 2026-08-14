@@ -55,19 +55,20 @@ Então após a divisão do código em hexadecimal, consegui pegar o binário de 
 fazendo isso com os primeiros hexadecimal do código e com a “FLAG{“, obtive a chave de “c4t!c”. 
 
 
-![foto para pegar a chave](./foto/fotoacesso1.png)
+![foto para pegar a chave](./fotos/fotoacesso1.png)
  
 Para decifrar a cifra, não sabia se o segundo ‘c’ era uma repetição ou fazia parte da chave, então após usar como parte da chave para decifrar dava erro.
 
+![flag erada](./fotos/fotoacesso2.png)
 
-kjyt4x\
 
 
 Então decidi que era um caractere de repetição e retirei-o da chave, ficando “c4t!” que rodando mais uma vez o dCode me deu a flag: 
 
-
+![flag certa](./fotos/fotoacesso3.png)
 
 ## Conclusão
 Esse foi meu primeiro desafio com cybersecurity, foi complicado no começo por não saber de várias coisas, mas depois que descobre a parte essencial, fica fácil continuar.
 Um desafio legal que me fez aprender principalmente a usar ferramentas que estão ao nosso dispor como o dCode que foi essencial para resolução do problema e sobre a cifra XOR.
 ****
+![foto de resposta corrreta](./fotos/fotoacesso4.png)
