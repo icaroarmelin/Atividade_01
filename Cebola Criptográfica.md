@@ -31,9 +31,9 @@ Como cada grupo possui 8 bits, representando um caractere, transformei a linguag
 ![vindo do binario](./fotos/fotocebola2.png)
 
 
-*“52 6b 78 42 52 33 74 45 4d 58 59 7a 63 6a 55 30 63 31 39 6a 4e 47 30 30 52 44 51 31 66 51 3d 3d”*
+                     “52 6b 78 42 52 33 74 45 4d 58 59 7a 63 6a 55 30 63 31 39 6a 4e 47 30 30 52 44 51 31 66 51 3d 3d”
 
-Com esse código é  possível deduzir que é hexadecimal, uma vez que, possui números de ‘0’ a 9’, letras  de ‘A’ a ‘Z’ e está dividido em pares, assim então, transformo cada decimal em um caractere:
+Com esse código é  possível deduzir que é hexadecimal, uma vez que, possui números de ‘0’ a 9’, letras  de ‘A’ a ‘Z’ e está dividido em pares, assim então, transformo cada decimal em um caractere, recebendo o código de uma nova foma como mostrado abaixo:
 
 ![vindo do hexadecimal](./fotos/fotocebola3.png)
 
@@ -44,7 +44,7 @@ Pelo formato, deduzi que era Base64, já que tem letras maiúsculas e minúscula
 ![obtendo a flag](./fotos/fotocebola4.png)
 
 
-“FLAG{D1v3r54s_c4m4D45}”
+                                                          “FLAG{D1v3r54s_c4m4D45}”
 
 ## Conclusão
 
