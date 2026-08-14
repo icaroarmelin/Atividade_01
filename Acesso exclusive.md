@@ -55,7 +55,7 @@ Então após a divisão do código em hexadecimal, consegui pegar o binário de 
 fazendo isso com os primeiros hexadecimal do código e com a “FLAG{“, obtive a chave de “c4t!c”. 
 
 
-![foto para pegar a chave](fotoacesso1.png)
+![foto para pegar a chave](./foto/fotoacesso1.png)
  
 Para decifrar a cifra, não sabia se o segundo ‘c’ era uma repetição ou fazia parte da chave, então após usar como parte da chave para decifrar dava erro.
 
